@@ -1,0 +1,4 @@
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/suckless
+ssh -T git@github.com
+
